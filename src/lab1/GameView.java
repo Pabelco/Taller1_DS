@@ -101,7 +101,7 @@ public class GameView extends JComponent {
 			g.setColor(Color.BLACK);
 			g.setFont(new Font("Sans", Font.BOLD, 14));
 			
-			String scoreString = (this.model.getScore() == 1) ? "point" : "points";
+			String scoreString = (this.model.getScore() == 2) ? "point" : "points";
 			g.drawString(this.model.getScore() + " " + scoreString, 10, 20);
 			
 			// Draw all tiles by going over them x-wise and y-wise.
